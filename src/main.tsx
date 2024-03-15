@@ -19,7 +19,8 @@ const Main = () => {
 	const [ratting, setRating] = useState(0)
 	const [comment, setComment] = useState('Zostaw swój komentarz')
 	const [userName, setUserName] = useState("")
-
+	setData(dataList)
+	setDataComents(dataComents)
 	return (
 		<div className="main">
 			<Router>
